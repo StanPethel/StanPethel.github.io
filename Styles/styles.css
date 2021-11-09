@@ -1,0 +1,9 @@
+.background-container{
+    height: 100vh;
+   background-image: linear-gradient(
+       to bottom,
+       darkblue,
+       black,
+       url(../my\ photos/)
+   )
+}
