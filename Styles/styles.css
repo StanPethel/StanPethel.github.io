@@ -2,8 +2,33 @@
     height: 100vh;
    background-image: linear-gradient(
        to bottom,
-       darkblue,
-       black,
-       url(../images/newpic.jpg)
-   )
+       rgba(0, 0, 139, 0.3),
+       rgba(0, 0, 0, 1)),
+       url(../images/newpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+
+}
+
+.portfolio-wrapper--flex{
+    margin-top: 3rem;
+    margin-right: 30rem;
+    width: 70vw;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-wrapper--flex > .portfolio__card--flex{
+   margin: 1rem; 
+}
+
+.portfolio__card--flex{
+    width: 16rem;
+}
+.portfolio-features{
+   position:fixed; 
+   margin:2rem 3rem;
+   right: 0;
 }
