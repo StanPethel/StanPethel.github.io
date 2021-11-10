@@ -1,9 +1,9 @@
 .background-container{
-    height: 100vh;
+    height: 200vh;
    background-image: linear-gradient(
        to bottom,
        rgba(0, 0, 139, 0.3),
-       rgba(0, 0, 0, 1)),
+       rgba(0, 0, 0, 0.1)),
        url(../images/newpic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,4 +31,13 @@
    position:fixed; 
    margin:2rem 3rem;
    right: 0;
+}
+.carousel-inner{
+    margin-top: 3rem;
+    margin-right:15rem;
+    margin-left: 15rem;
+    width: 70vh;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
